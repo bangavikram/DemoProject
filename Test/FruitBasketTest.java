@@ -61,7 +61,7 @@ public class FruitBasketTest {
 			mapFruit.put(FruitConstants.FRUIT_PEACH,3);
 			 
 			 float actualValue=fruitBasket.getBasketValue(mapFruit);
-			 float expectedValue=58.0f;
+			 float expectedValue=68.0f;
 
 			 assertNotNull(actualValue);
 			 assertEquals(expectedValue, actualValue, 0);
